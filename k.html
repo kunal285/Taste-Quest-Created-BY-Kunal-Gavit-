@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+
+body{
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+
+#bgimage{
+	background-image: url(https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?b=1&k=20&m=517188688&s=612x612&w=0&h=x8h70-SXuizg3dcqN4oVe9idppdt8FUVeBFemfaMU7w=);
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.heading1{
+	font-family: monospace;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+label{
+	color: white;
+	font-family: sans-serif;
+}
+input[type=Email] , input[type=Password]{
+    background: transparent;
+    color: white;
+    font-family: monospace;
+}
+input[type=Email]::placeholder , input[type=Password]::placeholder{
+	color: white;
+
+}
+
+.btn-success{
+   background : transparent;
+   transition: 0.5s ease;
+   letter-spacing: 2px;
+   font-family: monospace;
+   font-size: 15px;
+
+}
+
+a{
+	color: white;
+	transition: 0.3s ease;
+	
+	
+}
+a:hover{
+	text-decoration: none;
+  color: #ededed;	
+}
+
+</style>
+
+<body>
+<br><br>
+<div class="container-fluid">
+	<div class="col-md-3"></div>
+
+
+<div class="col-md-6" >
+
+
+<div id="bgimage" >
+<br><br>
+	<h1 class="heading1" >Sign In</h1>
+<br>	<br><br><br>
+<div class="row">
+	<div class="col-md-3"></div>
+<div class="col-md-6" style="margin-left: 5px;margin-right: 5px;">
+<form>
+<label >Username</label>
+<input type="Email" name="Email" class="form-control" required=""   placeholder="Email" />
+
+</div>
+
+<div class="col-md-3"></div>
+</div>
+<br><br>
+<div class="row">
+	<div class="col-md-3"></div>
+<div class="col-md-6" style="margin-left: 5px;margin-right: 5px;">
+
+<label>Password</label>
+<input type="Password" name="pass" class="form-control" required="" placeholder="Password" />
+<br><a href="#" > Forget password?</a>
+</div>
+
+<div class="col-md-3"></div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-5"></div>
+<div class="col-md-2" style="margin-left: 5px;margin-right: 5px;"><br><br>
+<button class="btn btn-success btn-block"  type="Submit">Submit</button>
+</div>
+
+
+<div class="col-md-5"></div>
+</div>
+<br><br><br><br><br>
+</form>
+</div>
+
+
+
+	<div class="col-md-3"></div>
+
+
+</div>
+
+</div>
+
+</body>
+</html>
